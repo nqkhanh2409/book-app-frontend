@@ -1,3 +1,3 @@
-const getBaseURL = () => "http://localhost:3000";
+const getBaseURL = () => import.meta.env.VITE_BASE_URL;
 
 export default getBaseURL;
